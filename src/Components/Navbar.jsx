@@ -13,13 +13,13 @@ const Navbar = () => {
             <div className='w-28'>
                 <img src={logo} alt="" />
             </div>
-            <div className=' hidden lg:flex space-x-5 tracking-wide'>
-                <a href="">About us</a>
-                <a href="">Cards</a>
-                <a href="">FAQ</a>
-                <a href="">Blog</a>
-                <a href="">Features</a>
-                <button className='border border-white rounded-3xl py-2 px-6'>Log in</button>
+            <div className=' hidden lg:flex space-x-5 tracking-wide justify-center items-center'>
+                <a href="" className='hover:text-[#E8f549]'>About us</a>
+                <a href="" className='hover:text-[#E8f549]'>Cards</a>
+                <a href="" className='hover:text-[#E8f549]'>FAQ</a>
+                <a href="" className='hover:text-[#E8f549]'>Blog</a>
+                <a href="" className='hover:text-[#E8f549]'>Features</a>
+                <button className='border border-white rounded-3xl py-2 px-6 hover:text-[#E8f549]'>Log in</button>
                 <button className='border border-white rounded-3xl py-2 px-6 bg-[#E8f549] text-[#0c4b54] border-[#0c4b54]'>Sign Up</button>
             </div>
             <div className='lg:hidden flex justify-end items-center'>
