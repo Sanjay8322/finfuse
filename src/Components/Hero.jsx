@@ -14,7 +14,7 @@ const Hero = () => {
                      Financial Partner.
                 </h1>
                 <p className='text-xl font-thin tracking-wide  mt-5 lg:mt-10'>Explore FinFuse today. Your finances: <br/>Discover FinFuse's Fintech Revolutions, Transforming Banking Experiences One Click at a Time.</p>
-                <div className='flex flex-wrap justify-center items-center mt-2 lg:mt-5'>
+                <div className='flex flex-wrap justify-center items-center mt-5 lg:mt-7'>
                     <button className='py-3 px-5 bg-[#E8f549] text-[#0c4b54] font-bold tracking-wide rounded-3xl'>Get Started</button>
                     <button className='py-3 px-5 border rounded-3xl tracking-wide m-3'>Watch Our Features</button>
                 </div>
